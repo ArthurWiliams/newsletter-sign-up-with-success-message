@@ -1,7 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+import DEFAULT_THEME from 'tailwindcss/defaultTheme';
+
 module.exports = {
   content: ["./src/**/*.{html,ts}"],
   theme: {
+    fontFamily: {
+      sans: ['Roboto', ...DEFAULT_THEME.fontFamily.sans]
+    },
+
     extend: {
       colors: {
         'tomato': 'hsl(4, 100%, 67%)',
