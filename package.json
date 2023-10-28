@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "Arthur Wiliams",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "parcel": "^2.10.1"
+  }
 }
