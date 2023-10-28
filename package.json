@@ -2,6 +2,7 @@
   "name": "newsletter-sign-up-with-success-message-main",
   "version": "1.0.0",
   "private": "true",
+  "source": "./src/index.html",
   "description": "",
   "main": "index.js",
   "scripts": {
