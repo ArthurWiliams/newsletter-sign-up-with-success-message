@@ -1,6 +1,7 @@
 {
   "name": "newsletter-sign-up-with-success-message-main",
   "version": "1.0.0",
+  "private": "true",
   "description": "",
   "main": "index.js",
   "scripts": {
