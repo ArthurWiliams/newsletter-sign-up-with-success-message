@@ -23,3 +23,9 @@
     @apply py-4 px-5 border-grey border-[2px] w-full rounded-lg
   }
 }
+
+@layer components {
+  .button {
+    @apply bg-dark-slate-grey text-white hover:bg-tomato focus:bg-tomato hover:shadow-tomato hover:shadow-xl focus:shadow-xl transition-[background-color_100ms_linear]
+  }
+}
