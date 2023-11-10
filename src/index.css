@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1, h2, h3, h4, h5, h6, a, label {
+    @apply text-dark-slate-grey font-bold;
+  }
+
+  label {
+    @apply text-[0.8rem];
+  }
+
+  ul {
+    @apply space-y-4;
+  }
+
+  button {
+    @apply font-bold p-4 w-full text-center rounded-lg;
+  }
+
+  [type=text], [type=number], [type=email] {
+    @apply py-4 px-5 border-grey border-[2px] w-full rounded-lg
+  }
+}
