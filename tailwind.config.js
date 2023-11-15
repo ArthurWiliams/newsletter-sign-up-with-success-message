@@ -12,6 +12,7 @@ module.exports = {
         100: 'hsl(5, 100%, 95%)',
         800: 'hsl(4, 100%, 67%)'
       },
+      'pink': 'hsl(346, 99%, 66%)',
       'dark-slate-grey': 'hsl(234, 29%, 20%)',
       'charcoal-grey': 'hsl(235, 18%, 26%)',
       'grey': 'hsl(231, 7%, 60%)',
