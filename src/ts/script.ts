@@ -6,6 +6,10 @@ function init(): void {
   const EMAIL_ERROR_FIELD = getElement<HTMLSpanElement>("#email-error", FORM);
   const SUBSCRIBE_PAGE = getElement<HTMLDivElement>("#subscribe-page");
   const SUCCESS_PAGE = getElement("#success-page");
+  const USER_EMAIL_LINK = getElement<HTMLLinkElement>(
+    "#user-email",
+    SUCCESS_PAGE
+  );
   const DISMISS_BUTTON = getElement<HTMLButtonElement>("#dismiss-button");
 
   FORM.addEventListener("submit", function (event) {
@@ -15,6 +19,8 @@ function init(): void {
       console.log("Form id valid.");
       EMAIL_FIELD.classList.remove("field--error");
       EMAIL_ERROR_FIELD.textContent = "";
+
+      USER_EMAIL_LINK.textContent = EMAIL_FIELD.value;
 
       SUBSCRIBE_PAGE.classList.replace("lg:flex", "hidden");
       SUCCESS_PAGE.classList.replace("hidden", "grid");
