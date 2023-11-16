@@ -25,6 +25,10 @@
     @apply py-4 px-5 border-grey border-[1px] w-full rounded-lg focus:border-dark-slate-grey outline-none
   }
 
+  .field--error {
+    @apply bg-tomato-100 border-tomato-800 text-tomato-800 focus:border-tomato-800
+  }
+
   .button {
     @apply bg-dark-slate-grey text-white hover:bg-gradient-to-r hover:from-pink hover:to-orange hover:shadow-tomato-800/30 hover:shadow-xl focus:bg-gradient-to-r focus:from-pink focus:to-orange focus:shadow-tomato-800/30 focus:shadow-xl
   }
