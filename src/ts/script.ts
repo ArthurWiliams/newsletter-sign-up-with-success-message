@@ -38,6 +38,7 @@ function init(): void {
       }
 
       EMAIL_ERROR_FIELD.textContent = message;
+      EMAIL_FIELD.focus();
     }
   });
 
