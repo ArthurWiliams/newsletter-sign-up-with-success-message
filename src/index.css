@@ -7,10 +7,6 @@
     @apply text-dark-slate-grey font-bold;
   }
 
-  label {
-    @apply text-[0.8rem];
-  }
-
   ul {
     @apply space-y-4;
   }
