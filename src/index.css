@@ -26,6 +26,6 @@
   }
 
   .button {
-    @apply bg-dark-slate-grey text-white hover:bg-tomato focus:bg-tomato hover:shadow-tomato hover:shadow-xl focus:shadow-xl transition-[background-color_100ms_linear]
+    @apply bg-dark-slate-grey text-white hover:bg-gradient-to-r hover:from-pink hover:to-orange hover:shadow-tomato-800/30 hover:shadow-xl focus:bg-gradient-to-r focus:from-pink focus:to-orange focus:shadow-tomato-800/30 focus:shadow-xl
   }
 }
