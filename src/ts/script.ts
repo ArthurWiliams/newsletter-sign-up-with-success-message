@@ -3,7 +3,7 @@ import { getElement } from "./utils";
 function init(): void {
   const FORM = getElement<HTMLFormElement>("#newsletter-form");
   const EMAIL_FIELD = getElement<HTMLInputElement>("#email", FORM);
-  const EMAIL_ERROR_FIELD = getElement("#email-error", FORM);
+  const EMAIL_ERROR_FIELD = getElement<HTMLSpanElement>("#email-error", FORM);
   const SUBSCRIBE_PAGE = getElement<HTMLDivElement>("#subscribe-page");
   const SUCCESS_PAGE = getElement("#success-page");
   const DISMISS_BUTTON = getElement<HTMLButtonElement>("#dismiss-button");
