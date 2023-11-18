@@ -4,7 +4,7 @@
   "private": "true",
   "source": "./src/index.html",
   "browserslist": "defaults",
-  "description": "",
+  "description": "A newsletter sign-up page for practice.",
   "scripts": {
     "build": "parcel build",
     "start": "parcel"
