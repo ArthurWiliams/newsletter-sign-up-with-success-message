@@ -1,6 +1,6 @@
 {
   "name": "newsletter-sign-up-with-success-message-main",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": "true",
   "source": "./src/index.html",
   "browserslist": "defaults",
