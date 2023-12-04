@@ -46,6 +46,7 @@ function init(): void {
     console.log("Success page dismissed.");
     SUBSCRIBE_PAGE.classList.replace("hidden", "lg:flex");
     SUCCESS_PAGE.classList.replace("grid", "hidden");
+    EMAIL_FIELD.value = "";
   });
 }
 
