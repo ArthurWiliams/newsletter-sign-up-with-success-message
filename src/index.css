@@ -26,6 +26,6 @@
   }
 
   .button {
-    @apply bg-dark-slate-grey text-white hover:bg-gradient-to-r hover:from-pink hover:to-orange hover:shadow-tomato-800/30 hover:shadow-xl focus:bg-gradient-to-r focus:from-pink focus:to-orange focus:shadow-tomato-800/30 focus:shadow-xl
+    @apply bg-dark-slate-grey text-white overflow-hidden relative z-10 before:-z-10 before:transition-opacity transition-shadow before:opacity-0 before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:content-[''] hover:before:opacity-100 focus:before:opacity-100 before:bg-gradient-to-r before:from-pink before:to-orange hover:shadow-tomato-800/30 hover:shadow-xl focus:shadow-tomato-800/30 focus:shadow-xl
   }
 }
