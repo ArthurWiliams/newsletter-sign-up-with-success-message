@@ -15,7 +15,7 @@
 }
 
 @layer base {
-  h1, h2, h3, h4, h5, h6, a, label {
+  h1, h2, h3, h4, h5, h6, a, label, strong {
     @apply text-dark-slate-grey font-bold;
   }
 
