@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/fonts/Roboto-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/fonts/Roboto-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
 @layer base {
   h1, h2, h3, h4, h5, h6, a, label {
     @apply text-dark-slate-grey font-bold;
