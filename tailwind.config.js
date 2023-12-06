@@ -24,7 +24,6 @@ module.exports = {
         'checkmark': 'url(/assets/images/icon-list.svg)'
       }
     },
-  },
-  plugins: [],
+  }
 }
 
