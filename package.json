@@ -4,6 +4,11 @@
   "private": "true",
   "source": "./src/index.html",
   "browserslist": "defaults",
+  "postcss": {
+    "plugins": {
+      "tailwindcss": "true"
+    }
+  },
   "description": "A newsletter sign-up page for practice.",
   "scripts": {
     "build": "parcel build",
