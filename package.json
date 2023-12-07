@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "private": "true",
   "source": "./src/index.html",
-  "browserslist": "defaults",
+  "browserslist": ["defaults"],
   "postcss": {
     "plugins": {
       "tailwindcss": "true"
